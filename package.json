@@ -1,0 +1,15 @@
+{
+  "name": "barrelify",
+  "version": "1.0.0",
+  "description": "CLI tool to generate JavaScript barrel files",
+  "main": "barrelify.js",
+  "bin": {
+    "barrelify": "./barrelify.js"
+  },
+  "keywords": ["barrel", "export", "index", "cli"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/parser": "^7.26.3"
+  }
+}
