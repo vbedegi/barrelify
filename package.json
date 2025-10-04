@@ -1,14 +1,18 @@
 {
-  "name": "barrelify",
+  "name": "@vbedegi/barrelify",
   "version": "1.0.0",
   "description": "CLI tool to generate JavaScript barrel files",
   "main": "barrelify.js",
   "bin": {
     "barrelify": "./barrelify.js"
   },
-  "keywords": ["barrel", "export", "index", "cli"],
-  "author": "",
+  "keywords": ["barrel", "export", "index", "cli", "typescript", "javascript"],
+  "author": "vbedegi",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vbedegi/barrelify.git"
+  },
   "dependencies": {
     "@babel/parser": "^7.26.3"
   }
